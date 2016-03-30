@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		964CC1A71CAB17020022AF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1A61CAB17020022AF6B /* AppDelegate.swift */; };
-		964CC1A91CAB17030022AF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1A81CAB17030022AF6B /* ViewController.swift */; };
+		964CC1A91CAB17030022AF6B /* DropboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1A81CAB17030022AF6B /* DropboxViewController.swift */; };
 		964CC1AC1CAB17030022AF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964CC1AA1CAB17030022AF6B /* Main.storyboard */; };
 		964CC1AE1CAB17030022AF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964CC1AD1CAB17030022AF6B /* Assets.xcassets */; };
 		964CC1B11CAB17030022AF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964CC1AF1CAB17030022AF6B /* LaunchScreen.storyboard */; };
 		964CC1BC1CAB17030022AF6B /* DropboxViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1BB1CAB17030022AF6B /* DropboxViewerTests.swift */; };
 		964CC1C71CAB17030022AF6B /* DropboxViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1C61CAB17030022AF6B /* DropboxViewerUITests.swift */; };
+		964CC1D91CAB18540022AF6B /* Agrume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1D51CAB18540022AF6B /* Agrume.swift */; };
+		964CC1DA1CAB18540022AF6B /* AgrumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1D61CAB18540022AF6B /* AgrumeCell.swift */; };
+		964CC1DB1CAB18540022AF6B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1D71CAB18540022AF6B /* ImageDownloader.swift */; };
+		964CC1DC1CAB18540022AF6B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1D81CAB18540022AF6B /* UIViewExtensions.swift */; };
+		964CC1E01CAB1A640022AF6B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1DF1CAB1A640022AF6B /* Queue.swift */; };
+		964CC1E31CAB1AD80022AF6B /* DropboxEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1E21CAB1AD80022AF6B /* DropboxEventHandler.swift */; };
+		964CC1E51CAB1B010022AF6B /* DropboxPhotoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC1E41CAB1B010022AF6B /* DropboxPhotoClient.swift */; };
+		964CC2251CABCF250022AF6B /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC2241CABCF250022AF6B /* UIViewControllerExtension.swift */; };
+		964CC2271CABD46A0022AF6B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC2261CABD46A0022AF6B /* UIImageExtension.swift */; };
+		964CC22A1CABDDEB0022AF6B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC2291CABDDEB0022AF6B /* CustomTextField.swift */; };
+		964CC22C1CABE2490022AF6B /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CC22B1CABE2490022AF6B /* DummyViewController.swift */; };
+		9C78DE0C35C2A8B52DCDBFE7 /* Pods_DropboxViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D85E245020B370D116B741 /* Pods_DropboxViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153A42F895FDF9000C1E8426 /* Pods-DropboxViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropboxViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropboxViewer/Pods-DropboxViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		40D85E245020B370D116B741 /* Pods_DropboxViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropboxViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CC1A31CAB17020022AF6B /* DropboxViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CC1A61CAB17020022AF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		964CC1A81CAB17030022AF6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		964CC1A81CAB17030022AF6B /* DropboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxViewController.swift; sourceTree = "<group>"; };
 		964CC1AB1CAB17030022AF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964CC1AD1CAB17030022AF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964CC1B01CAB17030022AF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		964CC1C21CAB17030022AF6B /* DropboxViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CC1C61CAB17030022AF6B /* DropboxViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxViewerUITests.swift; sourceTree = "<group>"; };
 		964CC1C81CAB17030022AF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964CC1D51CAB18540022AF6B /* Agrume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agrume.swift; sourceTree = "<group>"; };
+		964CC1D61CAB18540022AF6B /* AgrumeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgrumeCell.swift; sourceTree = "<group>"; };
+		964CC1D71CAB18540022AF6B /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		964CC1D81CAB18540022AF6B /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		964CC1DF1CAB1A640022AF6B /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		964CC1E21CAB1AD80022AF6B /* DropboxEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxEventHandler.swift; sourceTree = "<group>"; };
+		964CC1E41CAB1B010022AF6B /* DropboxPhotoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxPhotoClient.swift; sourceTree = "<group>"; };
+		964CC2241CABCF250022AF6B /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		964CC2261CABD46A0022AF6B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		964CC2291CABDDEB0022AF6B /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		964CC22B1CABE2490022AF6B /* DummyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		AA9230709FE298CEFD1554D1 /* Pods-DropboxViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropboxViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropboxViewer/Pods-DropboxViewer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C78DE0C35C2A8B52DCDBFE7 /* Pods_DropboxViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8E97165964C39DDC9F2B80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153A42F895FDF9000C1E8426 /* Pods-DropboxViewer.debug.xcconfig */,
+				AA9230709FE298CEFD1554D1 /* Pods-DropboxViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A953330DDD7DB6F99A905CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D85E245020B370D116B741 /* Pods_DropboxViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		964CC19A1CAB17020022AF6B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				964CC1BA1CAB17030022AF6B /* DropboxViewerTests */,
 				964CC1C51CAB17030022AF6B /* DropboxViewerUITests */,
 				964CC1A41CAB17020022AF6B /* Products */,
+				0C8E97165964C39DDC9F2B80 /* Pods */,
+				5A953330DDD7DB6F99A905CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +143,16 @@
 		964CC1A51CAB17020022AF6B /* DropboxViewer */ = {
 			isa = PBXGroup;
 			children = (
+				964CC2281CABDDD40022AF6B /* View */,
+				964CC2231CABCF010022AF6B /* Extensions */,
+				964CC1E11CAB1ABF0022AF6B /* View Model */,
+				964CC1DE1CAB1A4A0022AF6B /* Helper Files */,
+				964CC1DD1CAB1A280022AF6B /* Dropbox Client */,
+				964CC1D41CAB181F0022AF6B /* Agrume */,
 				964CC1A61CAB17020022AF6B /* AppDelegate.swift */,
-				964CC1A81CAB17030022AF6B /* ViewController.swift */,
+				964CC1A81CAB17030022AF6B /* DropboxViewController.swift */,
 				964CC1AA1CAB17030022AF6B /* Main.storyboard */,
+				964CC22B1CABE2490022AF6B /* DummyViewController.swift */,
 				964CC1AD1CAB17030022AF6B /* Assets.xcassets */,
 				964CC1AF1CAB17030022AF6B /* LaunchScreen.storyboard */,
 				964CC1B21CAB17030022AF6B /* Info.plist */,
@@ -125,6 +178,58 @@
 			path = DropboxViewerUITests;
 			sourceTree = "<group>";
 		};
+		964CC1D41CAB181F0022AF6B /* Agrume */ = {
+			isa = PBXGroup;
+			children = (
+				964CC1D51CAB18540022AF6B /* Agrume.swift */,
+				964CC1D61CAB18540022AF6B /* AgrumeCell.swift */,
+				964CC1D71CAB18540022AF6B /* ImageDownloader.swift */,
+				964CC1D81CAB18540022AF6B /* UIViewExtensions.swift */,
+			);
+			name = Agrume;
+			sourceTree = "<group>";
+		};
+		964CC1DD1CAB1A280022AF6B /* Dropbox Client */ = {
+			isa = PBXGroup;
+			children = (
+				964CC1E41CAB1B010022AF6B /* DropboxPhotoClient.swift */,
+			);
+			name = "Dropbox Client";
+			sourceTree = "<group>";
+		};
+		964CC1DE1CAB1A4A0022AF6B /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				964CC1DF1CAB1A640022AF6B /* Queue.swift */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		964CC1E11CAB1ABF0022AF6B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				964CC1E21CAB1AD80022AF6B /* DropboxEventHandler.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		964CC2231CABCF010022AF6B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				964CC2241CABCF250022AF6B /* UIViewControllerExtension.swift */,
+				964CC2261CABD46A0022AF6B /* UIImageExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		964CC2281CABDDD40022AF6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				964CC2291CABDDEB0022AF6B /* CustomTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964CC1CB1CAB17030022AF6B /* Build configuration list for PBXNativeTarget "DropboxViewer" */;
 			buildPhases = (
+				195AB242F95D3334B76E9193 /* Check Pods Manifest.lock */,
 				964CC19F1CAB17020022AF6B /* Sources */,
 				964CC1A01CAB17020022AF6B /* Frameworks */,
 				964CC1A11CAB17020022AF6B /* Resources */,
+				5213E3B4D79B81BD27B1032C /* Embed Pods Frameworks */,
+				953689F4E9A17BA7C9FD8D97 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +362,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195AB242F95D3334B76E9193 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5213E3B4D79B81BD27B1032C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropboxViewer/Pods-DropboxViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953689F4E9A17BA7C9FD8D97 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropboxViewer/Pods-DropboxViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		964CC19F1CAB17020022AF6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964CC1A91CAB17030022AF6B /* ViewController.swift in Sources */,
+				964CC1DA1CAB18540022AF6B /* AgrumeCell.swift in Sources */,
+				964CC22C1CABE2490022AF6B /* DummyViewController.swift in Sources */,
+				964CC1E51CAB1B010022AF6B /* DropboxPhotoClient.swift in Sources */,
+				964CC2251CABCF250022AF6B /* UIViewControllerExtension.swift in Sources */,
+				964CC1E01CAB1A640022AF6B /* Queue.swift in Sources */,
+				964CC2271CABD46A0022AF6B /* UIImageExtension.swift in Sources */,
+				964CC1E31CAB1AD80022AF6B /* DropboxEventHandler.swift in Sources */,
+				964CC1DB1CAB18540022AF6B /* ImageDownloader.swift in Sources */,
+				964CC1D91CAB18540022AF6B /* Agrume.swift in Sources */,
+				964CC22A1CABDDEB0022AF6B /* CustomTextField.swift in Sources */,
+				964CC1A91CAB17030022AF6B /* DropboxViewController.swift in Sources */,
+				964CC1DC1CAB18540022AF6B /* UIViewExtensions.swift in Sources */,
 				964CC1A71CAB17020022AF6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +567,7 @@
 		};
 		964CC1CC1CAB17030022AF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153A42F895FDF9000C1E8426 /* Pods-DropboxViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DropboxViewer/Info.plist;
@@ -411,6 +579,7 @@
 		};
 		964CC1CD1CAB17030022AF6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9230709FE298CEFD1554D1 /* Pods-DropboxViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DropboxViewer/Info.plist;
@@ -485,6 +654,7 @@
 				964CC1CD1CAB17030022AF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		964CC1CE1CAB17030022AF6B /* Build configuration list for PBXNativeTarget "DropboxViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +663,7 @@
 				964CC1D01CAB17030022AF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		964CC1D11CAB17030022AF6B /* Build configuration list for PBXNativeTarget "DropboxViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +672,7 @@
 				964CC1D31CAB17030022AF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
